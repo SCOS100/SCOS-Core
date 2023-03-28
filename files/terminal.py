@@ -10,10 +10,9 @@ while True:
     if com == "lts":
      print("abcdefghijklmnopqrstuvwxyz")
      print("1234567890")
-    if com == "menu":
-        exec(open("menu.py").read())
-        stdscr.clear()
+    if com == "exit":
+     exit()
     if com == "linux":
-        subprocess.run("sh")
+     subprocess.run("sh")
     if com == "win":
-        subprocess.run("cmd")
+     subprocess.run("cmd")
